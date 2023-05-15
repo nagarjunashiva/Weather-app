@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="search-bar">
+    <input type="text" id="location-input" placeholder="Enter location name or ZIP code">
+    <button onclick="searchWeather()">Search</button>
+  </div>
+  <div id="weather-card" class="card">
+    <div id="weather-icon"></div>
+    <div id="temperature"></div>
+    <div id="description"></div>
+  </div>
+  <div id="weather-chart" class="chart"></div>
+  <div class="unit-toggle">
+    <input type="radio" id="celsius" name="units" checked>
+    <label for="celsius">Celsius</label>
+    <input type="radio" id="fahrenheit" name="units">
+    <label for="fahrenheit">Fahrenheit</label>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

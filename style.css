@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  .search-bar input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  #weather-icon img {
+    width: 80px;
+    height: 80px;
+  }
+  #temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  #description {
+    font-size: 18px;
+    color: #888;
+  }
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .unit-toggle {
+    margin-top: 20px;
+  }
+  .unit-toggle label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .unit-toggle input[type="radio"] {
+    margin-right: 5px;
+  }
+  
